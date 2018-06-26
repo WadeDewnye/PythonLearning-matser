@@ -1,8 +1,6 @@
-from pandas import Series, DataFrame
-from numpy.random import randn
-import pandas as pd
 import numpy as np
-from numpy.linalg import inv, qr
+from numpy.linalg import inv
+from numpy.random import randn
 
 arr1 = randn(6)
 # print(np.sort(arr1))

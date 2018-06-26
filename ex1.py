@@ -1,12 +1,7 @@
-import pytz
-from datetime import datetime
-import pandas as pd
-from dateutil.parser import parse
-from pandas import Series, DataFrame
-from numpy.random import randn
-import pandas as pd
 import numpy as np
-from pandas.tseries.offsets import Hour,Minute,MonthEnd,Day
+import pandas as pd
+from numpy.random import randn
+from pandas import Series, DataFrame
 
 ts1 = Series(np.random.rand(3), index=pd.date_range('2010-01-09', periods=3, freq='W-WED'))
 # print(ts1)

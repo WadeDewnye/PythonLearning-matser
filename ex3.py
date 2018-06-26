@@ -1,11 +1,8 @@
-from pandas import Series, DataFrame
-from numpy.random import randn
-import pandas as pd
 import numpy as np
-from numpy.linalg import inv, qr
-from random import normalvariate
+import random
 import random
 
+import numpy as np
 
 samples = np.random.normal(size=(4, 4))
 # print(samples)
